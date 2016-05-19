@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>search</title>
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/app_style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <link href="css/ionic.app.css" rel="stylesheet">
+  -->
+
+  <!-- ionic/angularjs js -->
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+</head>
+<body ng-app="starter">
+
+<ion-pane>
+  <ion-header-bar class="bar business-bar">
+    <div class="wrapper-symmetric relative">
+
+    <div class="search-block clear">
+      <button class="back-search left">
+        <img src="img/back.png" alt="">
+      </button>
+      <form class="search-line" action="">
+        <input placeholder="Search" type="text">
+      </form>
+    </div>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <div class="wrapper clear">
+      <div class="main-container">
+        <div class="tabs-block clear"> <!-- Tabs -->
+          <ul id="tab-navigation">
+            <li data-target="#recent-happening" class="popular selected">HAPPENINGS</li>
+            <li data-target="#recent-shout" class="comments noSelected">SHOUTS</li>
+            <li data-target="#recent-people" class="recent noSelected">PEOPLE</li>
+            <li data-target="#recent-place" class="recent noSelected">PLACES</li>
+          </ul>
+        </div>
+        <div class="tab-containers"> <!-- Tab containers -->
+
+          <div id="recent-happening" class="tabContainer"> <!-- Popular Tab Container -->
+            <div class="event-shouts">
+              <div class="shouts-wrapper clear">
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout2.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout3.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout2.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout2.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout3.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout2.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="recent-shout" class="tabContainer hidden"> <!-- Comments Tab Container -->
+            <div class="event-shouts">
+              <div class="shouts-wrapper clear">
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div id="recent-people" class="tabContainer hidden"> <!-- Recent Tab Container -->
+            <div class="event-shouts">
+              <div class="shouts-wrapper clear">
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout2.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout3.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout2.png" alt="">
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div id="recent-place" class="tabContainer hidden"> <!-- Recent Tab Container -->
+            <div class="event-shouts">
+              <div class="shouts-wrapper clear">
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout2.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout3.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout2.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout1.png" alt="">
+                </div>
+                <div class="shouts-item left">
+                  <img src="img/shout2.png" alt="">
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- Tab containers end -->
+      </div>
+    </div>
+
+
+  </ion-content>
+  <ion-footer-bar  class="">
+    <div class="control-panel">
+      <ul>
+        <li class="tv"></li>
+        <li class="world"></li>
+        <li class="main"></li>
+        <li class="user"></li>
+        <li class="case"></li>
+      </ul>
+    </div>
+  </ion-footer-bar>
+</ion-pane>
+</body>
+</html>

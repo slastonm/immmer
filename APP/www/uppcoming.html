@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>uppcoming</title>
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/app_style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <link href="css/ionic.app.css" rel="stylesheet">
+  -->
+
+  <!-- ionic/angularjs js -->
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+</head>
+<body ng-app="starter">
+
+<ion-pane>
+  <ion-header-bar class="bar business-bar">
+    <div class="wrapper-symmetric event-bar relative clear">
+        <button class="search left"></button>
+      <ul class="event-time right">
+        <li>
+          LIVE
+        </li>
+        <li class="active">
+          UPCOMING
+        </li>
+      </ul>
+    </div>
+
+  </ion-header-bar>
+  <ion-content>
+    <div class="wrapper event-page  clear">
+      <div class="topbar-filter clear">
+        <ul>
+          <li>
+            <p class="select-category">Categories</p>
+            <p class="select">All</p>
+          </li>
+          <li>
+            <p class="select-category">Sort by</p>
+            <p class="select">Popular</p>
+          </li>
+          <li>
+            <p class="select-category">When</p>
+            <p class="select">This week</p>
+          </li>
+          <li>
+            <button>
+              <span class="map-icon"></span>
+              Map
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="shouting-container">
+        <div class="page-header clear">
+          <div class="time uppcoming">
+          <span class="live">
+            11:30-23:00,
+          </span>
+          <span class="time-info">
+            until 23:00
+          </span>
+          </div>
+          <button class="more right"></button>
+        </div>
+        <div class="event-detail">
+          <div class="rating-cost clear">
+            <div class="left">
+            <span class="summary">
+              4.0
+            </span>
+              <ul>
+                <li class="star"></li>
+                <li class="half-star"></li>
+                <li class="empty"></li>
+              </ul>
+              <span class="price">
+                $10 Entrance
+              </span>
+            </div>
+          </div>
+          <div class="event-name">
+            <span>
+              IE International Venture Days Dubai
+            </span>
+             <p class="right">1.5 KMs</p>
+          </div>
+          <ul class="event-tag">
+            <li>#Conference </li>
+            <li>#Entrepreneurship</li>
+            <li>#Competition</li>
+          </ul>
+          <div class="wrapper-symmetric clear">
+            <div class="joined left">
+              <ul>
+                <li>
+                  <div><img src="img/small2.png" alt=""></div>
+                </li>
+                <li>
+                  <div><img src="img/small2.png" alt=""></div>
+                </li>
+              </ul>
+              <span>
+                &
+              </span>
+              <span>
+                 257 joined
+              </span>
+            </div>
+            <div class="share-block right">
+              <ul>
+                <li>
+                  <div class="like"></div>
+                  <p>
+                    12k
+                  </p>
+                </li>
+                <li>
+                  <div class="share"></div>
+                  <p>
+                    127
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <img src="img/eventUI.png" alt="">
+      </div>
+      <div class="shouting-container">
+        <div class="page-header clear">
+          <div class="time  uppcoming">
+          <span class="live">
+            11:30-23:00,
+          </span>
+          <span class="time-info">
+            until 23:00
+          </span>
+          </div>
+          <button class="more right"></button>
+        </div>
+        <div class="event-detail">
+          <div class="event-name clear">
+            <span>
+              IE International Venture Days Dubai
+            </span>
+            <p class="right">7.3 KMs</p>
+          </div>
+          <ul class="event-tag">
+            <li>#Conference </li>
+            <li>#Entrepreneurship</li>
+            <li>#Competition</li>
+          </ul>
+          <div class="wrapper-symmetric clear">
+            <div class="joined left">
+              <ul>
+                <li>
+                  <div><img src="img/small2.png" alt=""></div>
+                </li>
+                <li>
+                  <div><img src="img/small2.png" alt=""></div>
+                </li>
+              </ul>
+              <span>
+                &
+              </span>
+              <span>
+                 257 joined
+              </span>
+            </div>
+            <div class="share-block right">
+              <ul>
+                <li>
+                  <div class="like"></div>
+                  <p>
+                    12k
+                  </p>
+                </li>
+                <li>
+                  <div class="share"></div>
+                  <p>
+                    127
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <img src="img/uppcoming.png" alt="">
+      </div>
+    </div>
+  </ion-content>
+  <ion-footer-bar  class="">
+    <div class="control-panel">
+      <ul>
+        <li class="tv"></li>
+        <li class="world"></li>
+        <li class="main"></li>
+        <li class="user"></li>
+        <li class="case"></li>
+      </ul>
+    </div>
+  </ion-footer-bar>
+</ion-pane>
+</body>
+</html>

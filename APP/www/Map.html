@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Map</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      height: 100%;
+      width: 640px;
+      margin: 0 auto;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>test</h1>
+
+    <div id="map"></div>
+
+
+
+
+<script>
+
+  var map;
+
+  function initMap() {
+    // Create an array of styles.
+    var styles = [
+      {
+        "featureType": "landscape",
+        "stylers": [
+          { "color": "#121212" }
+        ]
+      },{
+        "featureType": "road",
+        "stylers": [
+          { "color": "#484848" }
+        ]
+      },{
+        "featureType": "water",
+        "stylers": [
+          { "color": "#2c2c2c" }
+        ]
+      },{
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+          { "hue": "#77ff00" },
+          { "color": "#808080" }
+        ]
+      }
+    ];
+
+    // Create a new StyledMapType object, passing it the array of styles,
+    // as well as the name to be displayed on the map type control.
+    var styledMap = new google.maps.StyledMapType(styles,
+      {name: "Styled Map"});
+
+    // Create a map object, and include the MapTypeId to add
+    // to the map type control.
+    var mapOptions = {
+      zoom: 11,
+      center: new google.maps.LatLng(55.6468, 37.581),
+      mapTypeControlOptions: {
+        mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+      }
+    };
+    var map = new google.maps.Map(document.getElementById('map'),
+      mapOptions);
+
+    //Associate the styled map with the MapTypeId and set it to display.
+    map.mapTypes.set('map_style', styledMap);
+    map.setMapTypeId('map_style');
+  }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3hYtGvU2QbhFUBXoYi95w_2meWLvHtZk&callback=initMap"
+        async defer></script>
+</body>
+</html>

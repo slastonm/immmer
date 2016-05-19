@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>happening</title>
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/app_style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <link href="css/ionic.app.css" rel="stylesheet">
+  -->
+
+  <!-- ionic/angularjs js -->
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+</head>
+<body ng-app="starter">
+<ion-pane>
+  <ion-header-bar class="bar business-bar">
+    <div class="header clear">
+      <button class="back-buttons left">
+        <img src="img/back.png" alt="">
+      </button>
+      <div class="head-title">
+        EDIT PROFILE
+      </div>
+      <button class="save right">
+        Save
+      </button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <div class="wrapper clear">
+      <div class="add-photo clear">
+        <div class="photo left">
+          <img src="img/user-img.png" alt="">
+        </div>
+        <span class="left">
+          Change Photo
+        </span>
+        <button class="setting right"></button>
+      </div>
+    </div>
+    <div class="profile-setting">
+      <ul>
+        <li>
+          <div>
+            <label for="name">Name</label>
+          </div>
+          <input value="Fabian Dagostin" id="name" type="text">
+        </li>
+        <li>
+          <div>
+            <label for="nick">NICKNAME</label>
+          </div>
+          <input value="fabian" id="nick" type="text">
+        </li>
+        <li>
+          <div>
+            <label for="slogan">SLOGAN</label>
+          </div>
+          <input value="" placeholder="Your main idea" id="slogan" type="text">
+        </li>
+        <li>
+          <div>
+            <label for="about">ABOUT ME</label>
+          </div>
+          <input value="" placeholder="Short bio" id="about" type="text">
+        </li>
+        <li>
+          <div>
+            <label for="email">EMAIL</label>
+          </div>
+          <input value="fabian@immmer.net" placeholder="" id="email" type="text">
+        </li>
+        <li>
+          <div>
+            <label for="mobile">MOBILE</label>
+          </div>
+          <input value="" placeholder="+1 xxx xxx xx xx" id="mobile" type="text">
+        </li>
+      </ul>
+    </div>
+    <div class="social-add">
+      <p>
+        SOCIAL PROFILES
+      </p>
+      <ul class="clear">
+        <li class="facebook"><span class=""></span></li>
+        <li class="twiter"><span class=""></span></li>
+        <li class="esoc"><span class=""></span></li>
+        <li class="meetup"><span class=""></span></li>
+      </ul>
+    </div>
+    <div class="settings-title clear">
+      <span>
+         Follow people
+      </span>
+      <button class="add-interest right"></button>
+    </div>
+    <div class="interest-tag">
+      <ul>
+        <li>Food Pop Ups</li>
+        <li>Home Food Sales</li>
+        <li>Restaurants</li>
+        <li>Seminars & Talks</li>
+        <li>Competitions</li>
+        <li>Universities</li>
+        <li>Mentoring & Coaching</li>
+        <li>Networking</li>
+      </ul>
+    </div>
+  </ion-content>
+</ion-pane>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>time</title>
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/app_style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <link href="css/ionic.app.css" rel="stylesheet">
+  -->
+
+  <!-- ionic/angularjs js -->
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+</head>
+<body ng-app="starter">
+<ion-pane>
+  <ion-header-bar class="bar business-bar">
+    <div class="header clear">
+      <button class="back-buttons left">
+        <img src="img/back.png" alt="">
+      </button>
+      <div class="head-title">
+        HAPPENING TIME
+      </div>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <div class="wrapper clear">
+      <div class="time-block clear"> <!-- Tabs -->
+        <ul id="tab-navigation">
+          <li data-target="#start" class="popular selected">
+            <p>
+              Starts
+            </p>
+            <p>
+              Choose date&time
+            </p>
+          </li>
+          <li data-target="#end" class="comments noSelected">
+            <p>
+              End
+            </p>
+            <p>
+              Choose date&time
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-containers"> <!-- Tab containers -->
+
+        <div id="start" class="tabContainer"> <!-- Popular Tab Container -->
+          <div class="select-time">
+            <div class="time no-active">
+              10:00
+            </div>
+            <div class="time active-time">
+              NOW
+            </div>
+            <div class="time">12:00</div>
+            <div class="time">12:30</div>
+            <div class="time">14:00</div>
+            <div class="time">14:30</div>
+            <div class="time">15:00</div>
+          </div>
+          <div class="wrapper-symmetric">
+            <div class="week-day clear">
+              <span>SUN</span>
+              <span>MON</span>
+              <span>TUE</span>
+              <span>WED</span>
+              <span>THU</span>
+              <span>FRI</span>
+              <span>SAT</span>
+            </div>
+          </div>
+          <div class="wrapper-symmetric">
+            <p class="month">
+              MARCH 2016
+            </p>
+          </div>
+
+          <div class="wrapper-symmetric">
+            <div class="today">
+              Today
+            </div>
+          </div>
+
+        </div>
+
+        <div id="end" class="tabContainer hidden"> <!-- Comments Tab Container -->
+          2
+        </div>
+
+      </div> <!-- Tab containers end -->
+    </div>
+  </ion-content>
+  <ion-footer-bar  class="button-bar">
+    <button>
+      NEXT
+    </button>
+  </ion-footer-bar>
+</ion-pane>
+</body>
+</html>

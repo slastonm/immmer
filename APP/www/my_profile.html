@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/app_style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <link href="css/ionic.app.css" rel="stylesheet">
+  -->
+
+  <!-- ionic/angularjs js -->
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+</head>
+<body ng-app="starter">
+
+<ion-pane>
+  <!--<ion-header-bar class="bar-stable">-->
+  <!--<h1 class="title">Ionic Blank Starter</h1>-->
+  <!--</ion-header-bar>-->
+  <ion-content>
+    <div class="wrapper">
+      <div class="user-info-block">
+        <div class="user-background">
+          <div class="header clear">
+            <button class="back left">
+              <img src="img/back.png" alt="">
+            </button>
+                <span class="header-name">
+                  @marie
+                </span>
+            <button class="setting right">
+              <img src="img/settings.png" alt="">
+            </button>
+          </div>
+          <div class="user-info-detail clear">
+            <div class="follower left">
+              <p>
+                10m
+              </p>
+              <p>
+                FOLLOWERS
+              </p>
+            </div>
+            <div class="ava">
+              <img src="img/user.jpg" alt="">
+            </div>
+            <div class="following right">
+              <p>
+                780
+              </p>
+              <p>
+                FOLLOWING
+              </p>
+            </div>
+          </div>
+          <div class="name-info">
+            <h3>
+              Marie Gedeon
+            </h3>
+            <h4>
+              SAN FRANCISCO, CA
+            </h4>
+          </div>
+          <img class="background-user" src="img/user.jpg" alt="">
+          <div class="filter"></div>
+
+        </div>
+        <button class="follow-button">
+          EDIT PROFILE
+        </button>
+      </div>
+      <div class="content-wrapper">
+        <div class="info-text">
+          <p>
+            Visit your GP who will assess whether you have a mental disorder and
+            whether the preparation of a <br>
+            GP Mental
+          </p>
+        </div>
+        <div class="tag">
+          <h4>
+            INTEREST
+          </h4>
+          <ul>
+            <li>
+              <a href="#">
+                Food Pop Ups
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Home Food Sales
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Restaurants
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Seminars & Talks
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Competitions
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Universities
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Mentoring & Coaching
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Networking
+              </a>
+            </li>
+          </ul>
+          <div class="wrapper-right">
+            <button class="show-more-button">
+              SEE MORE
+            </button>
+          </div>
+        </div>
+
+      </div>
+      <div class="event-tab">
+
+
+        <ul id="tab-navigation" class="event-tab-control clear">
+          <li data-target="#event" class=" selected">
+            <span>
+            152
+            </span>
+            <span>
+            Events
+            </span>
+          </li>
+          <li data-target="#recent-shout" class=" noSelected">
+            <span>
+            2.3k
+            </span>
+            <span>
+            Liked
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-containers"> <!-- Tab containers -->
+
+        <div id="event" class="tabContainer">
+          <div class="content-wrapper">
+            <div class="next-events">
+              <h4>
+                NEXT EVENTS ATTENDING
+              </h4>
+              <ul>
+                <li class="clear">
+                  <div class="event-image left">
+                    <img src="img/event.png" alt="">
+                  </div>
+                  <div class="next-event-description left">
+                    <p class="title">
+                      IE International Venture Days Dubai
+                    </p>
+
+                    <p class="distance">
+                      1.5 KMs, $10 Entrance
+                    </p>
+
+                    <p class="date">
+                      20Dec 2016 8:00PM-10:00PM
+                    </p>
+                  </div>
+                </li>
+                <li class="clear">
+                  <div class="event-image left">
+                    <img src="img/event.png" alt="">
+                  </div>
+                  <div class="next-event-description left">
+                    <p class="title">
+                      IE International Venture Days Dubai
+                    </p>
+
+                    <p class="distance">
+                      1.5 KMs, $10 Entrance
+                    </p>
+
+                    <p class="date">
+                      20Dec 2016 8:00PM-10:00PM
+                    </p>
+                  </div>
+                </li>
+                <li class="clear">
+                  <div class="event-image left">
+                    <img src="img/event.png" alt="">
+                  </div>
+                  <div class="next-event-description left">
+                    <p class="title">
+                      IE International Venture Days Dubai
+                    </p>
+
+                    <p class="distance">
+                      1.5 KMs, $10 Entrance
+                    </p>
+
+                    <p class="date">
+                      20Dec 2016 8:00PM-10:00PM
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <div class="wrapper-right">
+                <button class="show-more-button">
+                  LOAD MORE
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div id="recent-shout" class="tabContainer hidden"> <!-- Comments Tab Container -->
+
+
+          <div class="content-wrapper">
+            <div class="next-events">
+              <h4>
+                LIKE
+              </h4>
+              <ul>
+                <li class="clear">
+                  <div class="event-image left">
+                    <img src="img/event.png" alt="">
+                  </div>
+                  <div class="next-event-description left">
+                    <p class="title">
+                      IE International Venture Days Dubai
+                    </p>
+
+                    <p class="distance">
+                      1.5 KMs, $10 Entrance
+                    </p>
+
+                    <p class="date">
+                      20Dec 2016 8:00PM-10:00PM
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <div class="wrapper-right">
+                <button class="show-more-button">
+                  LOAD MORE
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div> <!-- Tab containers end -->
+
+      </div>
+      <div class="event-category">
+        <div class="wrapper-symmetric">
+          <div class="event-control clear">
+            <span class="left">
+              SHOUTS
+            </span>
+            <button class="switch-list right">
+              <img src="img/location.png" alt="">
+                <span>
+                   Map
+                </span>
+
+            </button>
+            <button class="switch-map hide right">
+              <img src="img/list.png" alt="">
+              <span>
+                list
+              </span>
+
+            </button>
+          </div>
+        </div>
+        <div class="my-profile-map hide">
+          <img src="img/map-my.png" alt="">
+        </div>
+        <div class="event-shouts">
+          <div class="shouts-wrapper clear">
+            <div class="shouts-item left">
+              <img src="img/shout1.png" alt="">
+            </div>
+            <div class="shouts-item left">
+              <img src="img/shout1.png" alt="">
+            </div>
+            <div class="shouts-item left">
+              <img src="img/shout2.png" alt="">
+            </div>
+            <div class="shouts-item left">
+              <img src="img/shout3.png" alt="">
+            </div>
+            <div class="shouts-item left">
+              <img src="img/shout2.png" alt="">
+            </div>
+            <div class="shouts-item left">
+              <img src="img/shout1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </ion-content>
+  <ion-footer-bar  class="">
+      <div class="control-panel">
+        <ul>
+          <li class="tv"></li>
+          <li class="world"></li>
+          <li class="main"></li>
+          <li class="user"></li>
+          <li class="case"></li>
+        </ul>
+      </div>
+  </ion-footer-bar>
+</ion-pane>
+</body>
+</html>
