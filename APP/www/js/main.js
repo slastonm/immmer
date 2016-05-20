@@ -212,6 +212,12 @@ $(document).ready(function(){
     $('.more-block').removeClass('hide');
     $('.button-bar').removeClass('no-active');
   });
+
+  //attends
+  $('.attending-contact-list .attending-add-user').click(function(){
+    var elemSelect = $(this).parent();
+    elemSelect.appendTo( $('.attending-contact ul'));
+  })
 });
 
 

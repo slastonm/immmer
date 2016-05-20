@@ -2840,3 +2840,76 @@ button.next-step{
   padding: 0;
   background: url("../img/next-icon.png");
 }
+
+.attending-contact,
+.attending-contact-list{
+  padding: 0 0 0 12px;
+  li{
+    padding: 10px 0;
+    border-bottom: 1px solid #f4f4f4;
+    &:last-child{
+      border-bottom:none;
+    }
+  }
+  .user-image{
+    margin: 0 10px 0 0;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: center;
+    img{
+      width: 100%;
+    }
+  }
+  .user-info{
+    vertical-align: top;
+    padding: 2px 0;
+    p{
+      color: #4b4b4b;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 20px;
+      &+p{
+        color: #adadae;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -0.2px;
+        line-height: 18px;
+      }
+    }
+  }
+
+}
+.attending-contact{
+  .attending-add-user{
+      background-color: #f8e71c;
+      border-color:#f8e71c;
+      .add-icon{
+        background: url(../img/add-sprite.png) 0 0;
+      }
+
+  }
+}
+
+.attending-add-user{
+  margin: 4px 12px 0 0;
+  border: 1px solid #54c8f9;
+  border-radius: 46px;
+  padding: 5px 12px 4px;
+  text-align: center;
+  &.active{
+    background-color: #f8e71c;
+    border-color:#f8e71c;
+    .add-icon{
+      background: url(../img/add-sprite.png) 0 0;
+    }
+  }
+}
+
+.add-icon{
+  display: inline-block;
+  width: 20px;
+  height: 13px;
+  background: url(../img/add-sprite.png) 0 -18px;
+}
