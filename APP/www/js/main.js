@@ -200,6 +200,18 @@ $(document).ready(function(){
   });
   var viewportHeight = $(window).height();
   $('.login-slider-item').css({ 'height': viewportHeight + "px" });
+
+
+  //interest
+  $('.interest-category .category-item').click(function(){
+    $(this).toggleClass("active");
+  });
+
+  $('.interest-sub li').click(function(){
+    $('.select-result').removeClass('hide');
+    $('.more-block').removeClass('hide');
+    $('.button-bar').removeClass('no-active');
+  });
 });
 
 
