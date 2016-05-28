@@ -17,7 +17,7 @@
   <!-- ionic/angularjs js -->
   <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script src="js/slick.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/app.js"></script>
   <script src="lib/ionic/js/ionic.bundle.js"></script>
 
   <!-- cordova script (this will be a 404 during development) -->
@@ -40,7 +40,7 @@
     </div>
   </ion-header-bar>
   <ion-content>
-    <div class="wrapper clear">
+    <div ng-controller="interestCtrl" class="wrapper  clear" >
       <div class="select-result hide clear">
         <span class="left">
           See your selected 3 interests
@@ -53,7 +53,7 @@
       <div class="subcategory">
 
         <ul class="subcategory-list interest-sub">
-          <li>Food Pop Ups</li>
+          <li ng-class="{'active': isActive}" ng-click="activeButton()">Food Pop Ups</li>
           <li>Home Food Sales</li>
           <li>Street Food</li>
           <li>Restaurants</li>
