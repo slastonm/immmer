@@ -35,6 +35,17 @@ angular.module('starter', ['ionic'])
     };
 
 
-});
+})
+.controller('bodyCtrl', function ($scope) {
+
+  $scope.toggleClass = function($event, className) {
+    className = className || 'active';
+    $($event.target).toggleClass(className);
+  };
+
+
+})
+
+
 
 

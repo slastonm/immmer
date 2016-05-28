@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="058a32c4-cbe4-44d3-bdaf-b12c20667355" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/css/app_style.css" afterPath="$PROJECT_DIR$/APP/www/css/app_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/css/app_style.less" afterPath="$PROJECT_DIR$/APP/www/css/app_style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/interest-sub.html" afterPath="$PROJECT_DIR$/APP/www/interest-sub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/interest.html" afterPath="$PROJECT_DIR$/APP/www/interest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/js/app.js" afterPath="$PROJECT_DIR$/APP/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/js/main.js" afterPath="$PROJECT_DIR$/APP/www/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/live6.html" afterPath="$PROJECT_DIR$/APP/www/live6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APP/www/login.html" afterPath="$PROJECT_DIR$/APP/www/login.html" />
     </list>
     <ignored path="Ionic.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,17 +75,27 @@
             <entry file="file://$PROJECT_DIR$/APP/www/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+                  <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="interest.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="interest.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/APP/www/interest.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.52948254">
-                  <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+                <state vertical-scroll-proportion="-21.192308">
+                  <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="interest-sub.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/APP/www/interest-sub.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.4572804">
+                  <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -154,9 +158,9 @@
         <option value="$PROJECT_DIR$/APP/www/js/main.js" />
         <option value="$PROJECT_DIR$/APP/www/login.html" />
         <option value="$PROJECT_DIR$/APP/www/css/app_style.less" />
-        <option value="$PROJECT_DIR$/APP/www/interest-sub.html" />
         <option value="$PROJECT_DIR$/APP/www/js/app.js" />
         <option value="$PROJECT_DIR$/APP/www/interest.html" />
+        <option value="$PROJECT_DIR$/APP/www/interest-sub.html" />
       </list>
     </option>
   </component>
@@ -314,7 +318,7 @@
       <recent name="C:\Git\Ionic\APP\www\css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.interest.html">
+  <component name="RunManager" selected="JavaScript Debug.interest-sub.html">
     <configuration default="false" name="settings.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Ionic/APP/www/settings.html">
       <method />
     </configuration>
@@ -387,10 +391,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.interest.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.attendees.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.interest-sub.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.interest-sub.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.interest.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.login.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.attendees.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.settings.html" />
       </list>
     </recent_temporary>
@@ -779,14 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APP/www/interest-sub.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5038168">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APP/www/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.3076923">
@@ -798,15 +794,23 @@
     <entry file="file://$PROJECT_DIR$/APP/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APP/www/interest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52948254">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        <state vertical-scroll-proportion="-21.192308">
+          <caret line="54" column="78" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/www/interest-sub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4572804">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
           <folding />
         </state>
       </provider>

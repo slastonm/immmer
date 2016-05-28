@@ -26,7 +26,7 @@
   <!-- your app's js -->
   <script src="js/app.js"></script>
 </head>
-<body ng-app="starter">
+<body ng-app="starter" ng-controller="bodyCtrl">
 <ion-pane>
   <ion-header-bar class="bar business-bar">
     <div class="header clear">
@@ -53,32 +53,32 @@
       <div class="subcategory">
 
         <ul class="subcategory-list interest-sub">
-          <li ng-class="{'active': isActive}" ng-click="activeButton()">Food Pop Ups</li>
-          <li>Home Food Sales</li>
-          <li>Street Food</li>
-          <li>Restaurants</li>
-          <li>Café & Bakeries</li>
-          <li>Competitions</li>
-          <li>Private Tuition</li>
-          <li>Mentoring & Coaching</li>
-          <li>Think Tanks</li>
-          <li>Retailers</li>
-          <li>Street Vendors</li>
-          <li>Fashion & Accessories Classes</li>
-          <li>Universities</li>
-          <li>immmer Meetings</li>
-          <li>Car Wash</li>
-          <li>Seminars & Talks</li>
-          <li>Universities</li>
-          <li>Competitions</li>
-          <li>Mentoring & Coaching</li>
-          <li>Networking</li>
-          <li>Classes, courses, workshops</li>
-          <li>Conventions</li>
-          <li>Flea Markets</li>
-          <li>CarWash&Servces</li>
+          <li  ng-click="toggleClass($event, 'active')" ng-class="active == true">Food Pop Ups</li>
+          <li  ng-click="toggleClass($event, 'active')">Home Food Sales</li>
+          <li  ng-click="toggleClass($event, 'active')">Street Food</li>
+          <li  ng-click="toggleClass($event, 'active')">Restaurants</li>
+          <li  ng-click="toggleClass($event, 'active')">Café & Bakeries</li>
+          <li  ng-click="toggleClass($event, 'active')">Competitions</li>
+          <li  ng-click="toggleClass($event, 'active')">Private Tuition</li>
+          <li  ng-click="toggleClass($event, 'active')">Mentoring & Coaching</li>
+          <li  ng-click="toggleClass($event, 'active')">Think Tanks</li>
+          <li  ng-click="toggleClass($event, 'active')">Retailers</li>
+          <li  ng-click="toggleClass($event, 'active')">Street Vendors</li>
+          <li  ng-click="toggleClass($event, 'active')">Fashion & Accessories Classes</li>
+          <li  ng-click="toggleClass($event, 'active')">Universities</li>
+          <li  ng-click="toggleClass($event, 'active')">immmer Meetings</li>
+          <li  ng-click="toggleClass($event, 'active')">Car Wash</li>
+          <li  ng-click="toggleClass($event, 'active')">Seminars & Talks</li>
+          <li  ng-click="toggleClass($event, 'active')">Universities</li>
+          <li  ng-click="toggleClass($event, 'active')">Competitions</li>
+          <li  ng-click="toggleClass($event, 'active')">Mentoring & Coaching</li>
+          <li  ng-click="toggleClass($event, 'active')">Networking</li>
+          <li  ng-click="toggleClass($event, 'active')">Classes, courses, workshops</li>
+          <li  ng-click="toggleClass($event, 'active')">Conventions</li>
+          <li  ng-click="toggleClass($event, 'active')">Flea Markets</li>
+          <li  ng-click="toggleClass($event, 'active')">CarWash&Servces</li>
         </ul>
-        <div class="wrapper-symmetric more-block hide">
+        <div class="wrapper-symmetric more-block ">
           <!--if need hide button add class hide-->
           <button class="more-button">
             LOAD MORE
